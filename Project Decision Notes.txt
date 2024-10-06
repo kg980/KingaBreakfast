@@ -1,0 +1,10 @@
+Project decision notes
+
+separated into 2 projects
+
+-> allows me to define as class library
+-> then publish as .nuget package
+
+-> allows .net client to consume the .nuegt package rather than remodelling the API
+
+-> beneficial for versioning of the API (new version = new nuget pkg, client need to only consume new pkg :))

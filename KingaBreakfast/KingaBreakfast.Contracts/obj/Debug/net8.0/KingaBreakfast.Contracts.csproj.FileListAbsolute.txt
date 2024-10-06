@@ -1,0 +1,11 @@
+E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\bin\Debug\net8.0\KingaBreakfast.Contracts.deps.json
+E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\bin\Debug\net8.0\KingaBreakfast.Contracts.dll
+E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\bin\Debug\net8.0\KingaBreakfast.Contracts.pdb
+E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\obj\Debug\net8.0\KingaBreakfast.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\obj\Debug\net8.0\KingaBreakfast.Contracts.AssemblyInfoInputs.cache
+E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\obj\Debug\net8.0\KingaBreakfast.Contracts.AssemblyInfo.cs
+E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\obj\Debug\net8.0\KingaBreakfast.Contracts.csproj.CoreCompileInputs.cache
+E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\obj\Debug\net8.0\KingaBreakfast.Contracts.dll
+E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\obj\Debug\net8.0\refint\KingaBreakfast.Contracts.dll
+E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\obj\Debug\net8.0\KingaBreakfast.Contracts.pdb
+E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\obj\Debug\net8.0\ref\KingaBreakfast.Contracts.dll
