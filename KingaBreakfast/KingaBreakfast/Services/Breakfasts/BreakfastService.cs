@@ -1,6 +1,6 @@
 using ErrorOr;
 using KingaBreakfast.ServiceErrors;
-using KingaBreakFast.Models;
+using KingaBreakfast.Models;
 
 namespace KingaBreakfast.Services.Breakfasts;
 

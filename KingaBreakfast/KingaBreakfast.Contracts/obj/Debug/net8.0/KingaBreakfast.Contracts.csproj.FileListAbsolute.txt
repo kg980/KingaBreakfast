@@ -9,3 +9,4 @@ E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\obj\
 E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\obj\Debug\net8.0\refint\KingaBreakfast.Contracts.dll
 E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\obj\Debug\net8.0\KingaBreakfast.Contracts.pdb
 E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\obj\Debug\net8.0\ref\KingaBreakfast.Contracts.dll
+E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast.Contracts\obj\Debug\net8.0\KingaBreakfast.Contracts.sourcelink.json

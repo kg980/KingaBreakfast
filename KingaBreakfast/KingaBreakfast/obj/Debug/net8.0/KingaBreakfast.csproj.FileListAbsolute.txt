@@ -28,3 +28,4 @@ E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast\obj\Debug\net8
 E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast\obj\Debug\net8.0\KingaBreakfast.genruntimeconfig.cache
 E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast\obj\Debug\net8.0\ref\KingaBreakfast.dll
 E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast\bin\Debug\net8.0\ErrorOr.dll
+E:\CodeProjects\C#\API\BreakfastAPI\KingaBreakfast\KingaBreakfast\obj\Debug\net8.0\KingaBreakfast.sourcelink.json

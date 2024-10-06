@@ -2,9 +2,9 @@ using System.Reflection.Metadata.Ecma335;
 using ErrorOr;
 using KingaBreakfast.ServiceErrors;
 using KingaBreakfast.Services.Breakfasts;
-using KingaBreakFast.Contracts.Breakfast;
-using KingaBreakFast.Controllers;
-using KingaBreakFast.Models;
+using KingaBreakfast.Contracts.Breakfast;
+using KingaBreakfast.Controllers;
+using KingaBreakfast.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KingaBreakfast.Controllers;
@@ -29,17 +29,14 @@ public class BreakfastsController : ApiController
     public IActionResult CreateBreakfast(CreateBreakfastRequest request)
     {
         // map the data from the request to the language our app speaks (defined by our class in Models folder)
-        var breakfast = new Breakfast(
-            Guid.NewGuid(), // id
-            request.Name,
-            request.Description,
-            request.StartDateTime,
-            request.EndDateTime,
-            DateTime.UtcNow, // lastModifiedDateTime
-            request.Savory,
-            request.Sweet
-        );
+        ErrorOr<Breakfast> requestToBreakfastResult = Breakfast.From(request);
 
+        if (requestToBreakfastResult.IsError){
+            return Problem(requestToBreakfastResult.Errors);
+        }
+        //else, we know we have a breakfast object not an error:
+
+        var breakfast = requestToBreakfastResult.Value;
         // save breakfast to database
         ErrorOr<Created> createBreakfastResult = _breakfastService.CreateBreakfast(breakfast);
 
@@ -84,16 +81,12 @@ public class BreakfastsController : ApiController
     [HttpPut("{id:guid}")]
     public IActionResult UpsertBreakfast(Guid id, UpsertBreakfastRequest request)
     {
-        var breakfast = new Breakfast(
-            id, // ID arg of breakfast that we want to fetch
-            request.Name,
-            request.Description,
-            request.StartDateTime,
-            request.EndDateTime,
-            DateTime.UtcNow, // lastModifiedDateTime
-            request.Savory,
-            request.Sweet
-        );
+        ErrorOr<Breakfast> requestToBreakfastResult = Breakfast.From(id, request);
+
+        if (requestToBreakfastResult.IsError){
+            return Problem(requestToBreakfastResult.Errors);
+        }
+        var breakfast = requestToBreakfastResult.Value;
 
         ErrorOr<UpsertedBreakfast> upsertBreakfastResult =_breakfastService.UpsertBreakfast(breakfast);
 

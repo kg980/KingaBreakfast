@@ -1,6 +1,6 @@
 using ErrorOr;
-using KingaBreakFast.Contracts.Breakfast;
-using KingaBreakFast.Models;
+using KingaBreakfast.Contracts.Breakfast;
+using KingaBreakfast.Models;
 
 namespace KingaBreakfast.Services.Breakfasts;
 

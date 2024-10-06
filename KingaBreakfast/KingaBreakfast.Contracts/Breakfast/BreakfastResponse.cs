@@ -1,4 +1,4 @@
-namespace   KingaBreakFast.Contracts.Breakfast;
+namespace   KingaBreakfast.Contracts.Breakfast;
 
 // Response properties need to match what is in the Api.md for GET section
 public record BreakfastResponse(
